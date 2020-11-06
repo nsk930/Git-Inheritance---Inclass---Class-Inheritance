@@ -18,10 +18,11 @@ class Shape {
         this.color = "red";
     }
     drawShape() {
-
+        console.log("Drawing ashape");
     }
     calculateArea() {
-
+        console.log("calculate ashape");
+        return 0;
     }
 }
 module.exports = Shape;
