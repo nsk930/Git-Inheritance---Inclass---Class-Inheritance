@@ -15,13 +15,8 @@
 
 class Shape {
     constructor() {
-        this.color = red;
+        this.color = "red";
     }
-    drawShape() {
-        console.log("Drawing ashape");
-    }
-    calculateArea() {
-        console.log("calculate ashape");
-    }
+
 }
 module.exports = Shape;
